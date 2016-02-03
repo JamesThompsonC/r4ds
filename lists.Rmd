@@ -127,7 +127,7 @@ a <- list(a = 1:3, b = "a string", c = pi, d = list(-1, -5))
     a[["b"]]
     ```
 
-Or visually:
+Or visually [typo title for the last diagram - it has "a[[4]][1]" should be a[[4]][[1]]. Notice the double [[]:
 
 ```{r, echo = FALSE, out.width = "75%"}
 knitr::include_graphics("diagrams/lists-subsetting.png")
